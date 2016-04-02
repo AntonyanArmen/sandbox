@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.VIP
+{
+	color:gold;
+	font-weight: bold;
+	text-shadow:1px 1px 3px black;
+}
+fieldset {
+	display:inline-block;
+	border-radius:10px;
+	box-shadow:2px 2px 6px   YellowGreen;
+	margin: 10px;
+	vertical-align: top;
+}
+input[type="date"]
+{
+}
+h2
+{
+	text-align: center;
+	text-shadow: 2px 2px 5px PeachPuff;
+	border-bottom: 1px dotted black;
+}
+table,th,td
+{
+	border: 1px solid #999;
+    padding: 5px;	
+}
+thead
+{
+	font-weight: bold;
+	text-align: center;
+}
+.active:hover {
+  	background: #ffa500;
+  	cursor: pointer;
+ } 
+ legend
+ {
+ 	text-shadow: 2px 2px 5px black;
+ 	background-color: #BDB76B;
+ 	border-radius:3px;
+ 	padding: 0 8px;
+ 	color: #FFE4B5;
+ }

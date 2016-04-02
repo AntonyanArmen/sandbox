@@ -1,0 +1,254 @@
+html {
+		font-family: Arial, sans-serif;
+ -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+}
+body {
+	background: #F0FFF0 url("../images/witewall_3.png");
+	}
+.loginForm
+{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 2px solid #efe;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px darkseagreen;
+    margin: 150px auto;
+}
+.loginForm *
+{
+    font-size: 1.1em;
+    display: block;
+    border-radius: 5px;    
+    margin:20px auto;
+    box-sizing: border-box;
+	width: 90%;		
+    height: 35px;
+}
+.loginInput
+{
+    position: relative;
+    text-align: center;
+    background-color: azure
+	outline:none;
+}
+.loginInput:focus
+{
+    text-align: inherit;
+    padding-left: 10px;
+    background-color:white;
+}
+.loginForm input[type="submit"]
+{
+    color: darkslategray;    
+}
+.loginForm input[type="submit"]:hover
+{
+  box-shadow: 5px 5px 10px darkseagreen;  
+  color: RoyalBlue;    
+}
+.cellbut {
+	height: 40px;
+	width: 90%;
+}
+hr
+{
+	margin-top:20px;
+}
+.shoppers
+{
+	width: 100%;
+}
+.shoppers a
+{
+	color:inherit;
+	text-decoration: none;
+	display: inline-table;
+}
+.shopper
+{
+	text-align:left;
+	width:200px;
+	height: 100px;
+	border: 1px solid #999;
+	display: inline-table;
+	margin: 5px;
+	border-radius:5px;
+	box-shadow: 3px 3px 6px darkseagreen;
+	background-color: #bbb;
+	position: relative;
+}
+.unregshopper
+{
+	background-color: LightGreen;
+	color: black;
+}
+.shopper:hover
+{
+	background-color: #ccc;
+}
+.tradeMarkShort
+{
+	border: 1px solid #999;
+	position: absolute;
+	top:-10px;
+	left:7px;
+	background-color: #ddd;
+	display: block;
+	min-width: 20px;
+	height: 1em;
+	border-radius:5px;
+	color:navy;
+	padding:3px;
+	font-size: .8em;
+}
+.shopperTel, .shopperName
+{
+	margin-left: 15px;
+	text-shadow: 1px 1px 3px white;
+}
+.shopperName
+{
+	font-size: .9em;
+	margin-top: 1.1em;
+	overflow: hidden;
+	width: 150px;
+	height: 58px;
+	overflow: hidden;
+}
+.text-danger
+{
+	color: red;
+}
+.text-success
+{
+	color: green;
+}
+span[class$="fa-female"]
+{
+	color: red;
+}
+span[class$="fa-male"]
+{
+	color: blue;
+}
+.shopperTel
+{
+	color:navy;
+	font-size: .9em;
+	margin-top: 5px;
+}
+.shopperVIP
+{
+	color:gold;
+	font-weight: bold;
+	position: relative;
+	left: -10px;
+	top:80px;
+	float:right;
+	text-shadow:1px 1px 3px black;
+	z-index: 1;
+}
+.shopperVIP::after
+{
+	content: "VIP";
+}
+.right
+{
+	text-align: right;
+	vertical-align: middle;
+}
+.center
+{
+	vertical-align: middle;
+	text-align: center;
+	align:center;
+}
+ .left
+ {
+ 	float:left;
+ }
+
+table
+{
+	background: #eee;
+}
+.usersTbl
+{
+	border-collapse: collapse;
+	padding: 10px;
+	width: 500px;
+	background:transparent;	
+}
+
+.usersTbl2
+{
+    box-shadow: 5px 5px 10px darkseagreen;
+}
+.usersTbl2,                 
+.usersTbl2 td, 
+.usersTbl2 th
+{
+	border-collapse: collapse;
+	border: 1px solid #999;
+	padding: 10px;
+	width: 500px;
+}
+
+#loginTbl
+{
+	border: 1px solid #999;
+}
+ 
+
+#wrapperTbl
+{
+	width:100%;
+	height:95%;
+	background:transparent;
+}
+
+tr.hover:hover {
+  	background: #ffa500;
+  	cursor: pointer;
+ } 
+ 
+a {
+  color: #337ab7;
+  text-decoration: none;
+  align:left;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+ 
+.userEdit { 
+	border: 1px solid #999;
+	color:#444;
+	padding:10px;
+	width: 330px;
+	position:relative;
+	top:50%;
+	}
+.labelCol
+{
+	width: 130px;	
+}
+.requiredLbl:AFTER
+{
+	content: '*';
+}
+
+.userEditInput
+{
+	width: 170px;
+	
+} 
